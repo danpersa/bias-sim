@@ -1,0 +1,11 @@
+{
+  "plugins": ["add-js-css"],
+  "pluginsConfig": {
+    "add-js-css": {
+      "js": [
+        "./script.js"
+      ],
+      "css": []
+    }
+  }
+}
