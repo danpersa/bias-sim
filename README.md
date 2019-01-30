@@ -1,6 +1,6 @@
 # Bias Simulation
 
-The goal of this experiment is to get an impression on how unconscious bias can affect the structure of a company.
+The goal of this experiment is to get an impression on how unconscious bias can affect the structure of a company. This was inspired by [this talk](https://www.youtube.com/watch?v=nLjFTHTgEVU).
 
 Let's explain what the simulation is about:
 
