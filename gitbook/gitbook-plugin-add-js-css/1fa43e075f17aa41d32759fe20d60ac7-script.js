@@ -1,6 +1,7 @@
 // Script
 var biasLevel = 1;
 const SPEED = 100;
+const STEPS = 20;
 var attritionRate = 15;
 var data = [
   ["x", "Level1", "Level2", "Level3", "Level4", "Level5", "Level6", "Level7"],
@@ -173,7 +174,7 @@ function startSimulation() {
   document.getElementById("bias-level-div").innerHTML = "Bias Level: " + biasLevelStr;
   biasLevel = parseInt(biasLevel, 10);
 
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < STEPS; i++) {
     simulate();
   }
 }
